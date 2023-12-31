@@ -28,7 +28,7 @@ function Destinatary() {
           <h1 className="text-5xl text-white">{parsedDestinatary},</h1>
           <p className="text-2xl max-w-2xl text-white">{message}</p>
           <textarea
-            className="border-2 border-gray-950 pr-8 py-8 rounded-full bg-gray-950 text-xl pl-8 outline-none focus:border-2 focus:border-red-500 transition-all resize-none"
+            className="border-2 border-gray-950 pr-8 py-8 rounded-full bg-gray-950 text-xl pl-8 outline-none focus:border-2 focus:border-red-500 transition-all resize-none text-white"
             onChange={(event) => setMessage(event.target.value)}
           ></textarea>
           <Link
