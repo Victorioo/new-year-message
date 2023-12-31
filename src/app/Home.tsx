@@ -17,7 +17,7 @@ function HomePage() {
       <section className="flex items-center justify-center min-h-screen bg-gray-900">
         <article className="flex flex-col items-center gap-9">
           <h1 className="text-5xl">¡Feliz año nuevo!</h1>
-          <p className="text-2xl max-w-3xl text-center leading-normal text-gray-200">
+          <p className="text-2xl max-w-3xl text-center leading-normal text-gray-200 md:px-8">
             Mereces saludar a tus{" "}
             <span className="text-indigo-400">seres queridos</span> de la mejor
             manera, por lo que te vamos a dar un espacio para que le dejes un

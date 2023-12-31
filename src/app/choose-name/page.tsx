@@ -20,12 +20,10 @@ function ChooseName() {
       </header>
       <section className="flex items-center justify-center min-h-screen bg-gray-900">
         <article className="flex flex-col items-center gap-9">
-          <h1 className="text-5xl">¿Para quien es el mensaje?</h1>
+          <h1 className="text-3xl text-white">¿Para quien es el mensaje?</h1>
           <input
             type="text"
-            name=""
-            id=""
-            className="border-2 border-gray-950 pr-16 py-2 rounded-full bg-gray-950 text-xl pl-4 outline-none focus:border-2 focus:border-red-500 transition-all"
+            className="border-2 border-gray-950 pr-16 py-2 rounded-full bg-gray-950 text-xl pl-4 outline-none focus:border-2 focus:border-red-500 transition-all text-white"
             onChange={(event) => setDestinatary(event.target.value)}
           />
           <Link

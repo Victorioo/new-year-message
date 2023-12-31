@@ -44,8 +44,8 @@ function Destinatary({}) {
       </header>
       <section className="flex items-center justify-center min-h-screen bg-gray-900 z-40 backdrop:blur-3xl">
         <article className="flex flex-col items-center gap-9">
-          <h1 className="text-5xl">{parsedDestinatary},</h1>
-          <p className="text-2xl max-w-xl px-8">{parsedMessage}</p>
+          <h1 className="text-5xl text-white">{parsedDestinatary},</h1>
+          <p className="text-2xl max-w-xl px-8 text-white">{parsedMessage}</p>
           <div className="flex items-center gap-8">
             <Link
               className="px-8 py-2 bg-slate-950 text-xl font-bold shadow-lg rounded-lg border-b-4 border-black"
